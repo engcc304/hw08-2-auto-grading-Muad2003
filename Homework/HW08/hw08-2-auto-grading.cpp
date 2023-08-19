@@ -26,3 +26,54 @@
     Output:
         F !
 */
+
+#include<stdio.h>
+
+int main() {
+    
+    int input ;
+    printf ( "enter score :\n" ) ;
+    scanf ( "%d", &input ) ;
+    printf ( "Output:\n" ) ;
+
+    for ( input ; 80 <= input ; input ) {
+        printf ( "A !" ) ;
+        break ;
+    }
+    
+    for ( input ; input <= 79 && input >= 70 ; input ) {
+        printf ( "B+ !" ) ;
+        break ;
+    }
+
+    for ( input ; input <= 74 && input >= 70 ; input ) {
+        printf ( "B !" ) ;
+        break ;
+    }
+
+    for ( input ; input <= 69 && input >= 65 ; input ) {
+        printf ( "C+ !" ) ;
+        break ;
+    }
+
+    for ( input ; input <= 64 && input >= 60 ; input ) {
+        printf ( "C !" ) ;
+        break ;
+    }
+
+    for ( input ; input <= 59 && input >= 55 ; input ) {
+        printf ( "D+ !" ) ;
+        break ;
+    }
+
+    for ( input ; input <= 54 && input >= 50 ; input ) {
+        printf ( "D !" ) ;
+        break ;
+    }
+
+    for ( input ; input <= 49 ; input ) {
+        printf ( "F !" ) ;
+        break ;
+    }
+    return 0 ;
+}
