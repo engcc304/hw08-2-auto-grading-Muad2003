@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW08/hw08-2-auto-grading.cpp",
+      "run": "./a.out",
+      "input": "80",
+      "output": "A !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW08/hw08-2-auto-grading.cpp",
+      "run": "./a.out",
+      "input": "55",
+      "output": "D+ !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 3",
+      "setup": "g++ -o a.out ./Homework/HW08/hw08-2-auto-grading.cpp",
+      "run": "./a.out",
+      "input": "64",
+      "output": "C !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 4",
+      "setup": "g++ -o a.out ./Homework/HW08/hw08-2-auto-grading.cpp",
+      "run": "./a.out",
+      "input": "44",
+      "output": "F !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
